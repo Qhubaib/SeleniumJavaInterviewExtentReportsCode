@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestLayer.ExtentReportScreenshotTest">
+      <class name="seleniuminterviewtopics.JavascriptExecutorProgram">
         <methods>
-          <include name="titleTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- TestLayer.ExtentReportScreenshotTest -->
+      </class> <!-- seleniuminterviewtopics.JavascriptExecutorProgram -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

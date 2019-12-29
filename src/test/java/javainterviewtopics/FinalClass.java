@@ -60,5 +60,6 @@ class Final extends FinalClass
 	{
 		Final f = new Final();
 		f.sum();
+		f.sum(1);
 	}
 }
