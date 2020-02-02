@@ -62,4 +62,6 @@ class Final extends FinalClass
 		f.sum();
 		f.sum(1);
 	}
+	
+	
 }

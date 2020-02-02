@@ -9,7 +9,7 @@ public class ComparableExample {
 		/***
 		 * Comparable is a interface where every Wrapper class implements this interface
 		 * let say if we have created new class - for this we want to sort, in this scenario we have to use 
-		 *    implements Comparable<ClassName> where we need to implements unimplemented method --> public int compareTo();
+		 *    implements Comparable<ClassName> where we need to implements unimplemented method --> public int compareTo(Class obj);
 		 *    in that particular class
 		 */
 		List<Student> list = new ArrayList<Student>();

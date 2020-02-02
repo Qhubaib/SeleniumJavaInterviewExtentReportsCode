@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24463" started-at="2019-12-29T15:58:05Z" finished-at="2019-12-29T15:58:30Z">
+  <suite name="Suite" duration-ms="57" started-at="2020-01-20T06:19:56Z" finished-at="2020-01-20T06:19:56Z">
     <groups>
+      <group name="regression">
+        <method signature="TestNGGroupTest.method()[pri:0, instance:testngconcepts.TestNGGroupTest@2d9d4f9d]" name="method" class="testngconcepts.TestNGGroupTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="24463" started-at="2019-12-29T15:58:05Z" finished-at="2019-12-29T15:58:30Z">
-      <class name="seleniuminterviewtopics.JavascriptExecutorProgram">
-        <test-method status="PASS" signature="test()[pri:0, instance:seleniuminterviewtopics.JavascriptExecutorProgram@7d9d1a19]" name="test" duration-ms="24405" started-at="2019-12-29T15:58:05Z" finished-at="2019-12-29T15:58:30Z">
+    <test name="Test" duration-ms="57" started-at="2020-01-20T06:19:56Z" finished-at="2020-01-20T06:19:56Z">
+      <class name="testngconcepts.TestNGGroupTest">
+        <test-method status="PASS" signature="method()[pri:0, instance:testngconcepts.TestNGGroupTest@2d9d4f9d]" name="method" duration-ms="16" started-at="2020-01-20T06:19:56Z" finished-at="2020-01-20T06:19:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- seleniuminterviewtopics.JavascriptExecutorProgram -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method -->
+      </class> <!-- testngconcepts.TestNGGroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

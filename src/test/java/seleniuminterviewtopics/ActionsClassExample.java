@@ -43,8 +43,8 @@ public class ActionsClassExample {
 		System.out.println("After URL: "+driver.getCurrentUrl());
 		driver.close();
 		//Actions Class commands
-		action.keyUp(Keys.ARROW_DOWN).click().build().perform();
 		action.moveToElement(men).keyDown(Keys.ARROW_DOWN).click().build().perform();
+		action.keyUp(Keys.ARROW_DOWN).click().build().perform();
 	}
 	
 	@Test

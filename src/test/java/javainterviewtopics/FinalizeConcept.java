@@ -30,6 +30,10 @@ public class FinalizeConcept {
 	{
 		System.out.println("This is finalize() -- performs clean up activity -- before destroying an object");
 	}
+	public void finaliz()
+	{
+		System.out.println("This is finaliz");
+	}
 	public static void main(String[] munna)
 	{
 		FinalizeConcept f1 = new FinalizeConcept();
